@@ -114,16 +114,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
       title: "FoddieFood",
       techStack: ["React.js", "Tailwind CSS", "HTML",""],
       description:
@@ -131,7 +121,7 @@ export const RESUME_DATA = {
       logo: TastyCloudLogo,
       link: {
         label: "fofood",
-        href: "https://fofood-store.vercel.app/"
+      
       },
     },
   ],
