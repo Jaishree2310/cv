@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       logo: TastyCloudLogo,
       link: {
         label: "fofood",
-      
+        href: "",
       },
     },
   ],
