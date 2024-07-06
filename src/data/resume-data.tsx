@@ -103,6 +103,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Fitness-Club",
+      techStack: ["Typescript", "JavaScript","HTML", "CSS"],
+      description:
+        "FitClub is a straightforward and visually appealing landing page specifically crafted for gyms and fitness centers. It offers a pristine and efficient online representation, aiming to allure prospective clientele and exhibit the comprehensive range of amenities and services provided by the gym.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "netlify.com",
+        href: "https://fitness-club-jaishree.netlify.app/",
+      },
+    },
+    {
       title: "OnlineTest_App",
       techStack: ["Java", "OOPs"],
       description:
