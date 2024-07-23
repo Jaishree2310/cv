@@ -69,6 +69,17 @@ export const RESUME_DATA = {
     "Python",
   ],
   projects: [
+     {
+      title: "Glassy UI",
+      techStack: ["React", "Typescript", "Javascript", "Html","CSS"],
+      description:
+      "Elegant Glassmorphism Components for Modern UIs",
+      logo: ParabolLogo,
+      link: {
+        label: "render.com",
+        href: "https://glassyui.vercel.app/",
+      },
+    },
     {
       title: "NoteMaker",
       techStack: ["Python", "Django", "Javascript", "Html","CSS"],
