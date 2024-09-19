@@ -81,6 +81,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "kobun.app",
+      techStack: ["React", "Typescript", "Javascript", "Html","CSS"],
+      description:
+      "Effortlessly create personalized content bundles",
+      logo: ParabolLogo,
+      link: {
+        label: "render.com",
+        href: "https://kobun.app/",
+      },
+    },
+    {
       title: "NoteMaker",
       techStack: ["Python", "Django", "Javascript", "Html","CSS"],
       description:
