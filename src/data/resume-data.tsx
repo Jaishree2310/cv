@@ -67,6 +67,10 @@ export const RESUME_DATA = {
     "Node.js",
     "Java",
     "Python",
+    "SQL",
+    "REST API",
+    "MongoDB",
+    "Figma",
   ],
   projects: [
      {
