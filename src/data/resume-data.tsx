@@ -49,14 +49,20 @@ export const RESUME_DATA = {
         url: "https://twitter.com/Jaishre23100",
         icon: XIcon,
       },
+      {
+        name: "Behance",
+        url: "https://www.behance.net/jaishrees2310design",
+        icon: BehanceIcon,
+      },
     ],
   },
   education: [
     {
       school: "University of Mumbai",
-      degree: "Bachelor's of Engineering in CSE(Iot and Cyber Security including Blockchain Technology)",
+      degree: "Bachelor's of Engineering in Computer Engineering",
       start: "2020",
       end: "2024",
+      CGPA: "9",
     },
   ],
   skills: [
