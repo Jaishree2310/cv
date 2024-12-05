@@ -91,6 +91,17 @@ export const RESUME_DATA = {
         href: "https://kobun.app/",
       },
     },
+     {
+      title: "UX/UI Portfolio",
+      techStack: ["React", "Javascript", "Html"," Tailwind CSS"],
+      description:
+      "My Product Design Portfolio",
+      logo: ParabolLogo,
+      link: {
+        label: "render.com",
+        href: "https://jaishreesingh.com",
+      },
+    },
     {
       title: "NoteMaker",
       techStack: ["Python", "Django", "Javascript", "Html","CSS"],
