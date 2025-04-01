@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Software Engineer focused on high-quality, scalable solutions.",
   summary:
-    "I'm a budding Full Stack Engineer dedicated to guiding projects from inception to launch. I specialize in leading teams and cultivating environments conducive to peak performance. My skills include TypeScript, React.js, Node.js, Java and Python for developing scalable and user-friendly solutions. I actively engage in hackathons and contribute to open-source projects, leveraging the latest technologies to deliver innovative solutions that meet client needs",
+    "I'm a Software Engineer dedicated to guiding projects from inception to launch. I specialize in leading teams and cultivating environments conducive to peak performance. My skills include TypeScript, React.js, Node.js, Express, SQL, MongoDB, Java, and Python for developing scalable and user-friendly solutions. I actively engage in hackathons and contribute to open-source projects, leveraging the latest technologies to deliver innovative solutions that meet client needs",
   avatarUrl: "https://avatars.githubusercontent.com/u/73012522?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -49,11 +49,6 @@ export const RESUME_DATA = {
         url: "https://twitter.com/Jaishre23100",
         icon: XIcon,
       },
-      {
-        name: "Behance",
-        url: "https://www.behance.net/jaishrees2310design",
-        icon: BehanceIcon,
-      },
     ],
   },
   education: [
@@ -71,45 +66,47 @@ export const RESUME_DATA = {
     "React/Remix",
     "Next.js",
     "Node.js",
+    "Express.js",
+    "Redux",
     "Java",
     "Python",
     "SQL",
     "REST API",
     "MongoDB",
+    "AWS",
+    "Google Cloud",
     "Figma",
+  ],
+   work: [
+    {
+      company: "kobun.app",
+      link: "https://kobun.app/",
+      badges: ["Remote", "React", "Redux", "TypeScript", "Express.js"],
+      title: "Software Engineer",
+      // logo: ,
+      start: " July 2024",
+      end: null,
+      description: (
+        <>
+          Kobun is a service that helps users curate web content (such as articles, blogs, and newsletters) into a sleek,
+          personalized magazine delivered straight to their Amazon Kindle. 
+
+          <ul className="list-inside list-disc">
+          </ul>
+        </>
+      ),
+    },
   ],
   projects: [
      {
       title: "Glassy UI",
-      techStack: ["React", "Typescript", "Javascript", "Html","CSS"],
+      techStack: ["React", "Typescript", "Javascript", "Html", "CSS"],
       description:
       "Elegant Glassmorphism Components for Modern UIs",
       logo: ParabolLogo,
       link: {
         label: "render.com",
         href: "https://glassyui.vercel.app/",
-      },
-    },
-    {
-      title: "kobun.app",
-      techStack: ["React", "Typescript", "Javascript", "Html","CSS"],
-      description:
-      "Effortlessly create personalized content bundles",
-      logo: ParabolLogo,
-      link: {
-        label: "render.com",
-        href: "https://kobun.app/",
-      },
-    },
-     {
-      title: "UX/UI Portfolio",
-      techStack: ["React", "Javascript", "Html"," Tailwind CSS"],
-      description:
-      "My Product Design Portfolio",
-      logo: ParabolLogo,
-      link: {
-        label: "render.com",
-        href: "https://jaishreesingh.com",
       },
     },
     {
@@ -145,39 +142,16 @@ export const RESUME_DATA = {
         href: "https://gist.github.com/Jaishree2310/bb0f29adfeb7758e8a04724165df2f5e",
       },
     },
-    {
-      title: "Fitness-Club",
-      techStack: ["Typescript", "JavaScript","HTML", "CSS"],
+     {
+      title: "UX/UI Portfolio",
+      techStack: ["React", "Javascript", "Html"," Tailwind CSS"],
       description:
-        "FitClub is a straightforward and visually appealing landing page specifically crafted for gyms and fitness centers.",
-      logo: JarockiMeLogo,
+      "My Product Design Portfolio",
+      logo: ParabolLogo,
       link: {
-        label: "netlify.com",
-        href: "https://fitness-club-jaishree.netlify.app/",
+        label: "render.com",
+        href: "https://jaishreesingh.com",
       },
     },
-    {
-      title: "OnlineTest_App",
-      techStack: ["Java", "OOPs"],
-      description:
-        "OOP project for creating and managing online tests.",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://github.com/Jaishree2310/OnlineTestApp",
-      },
-    },
-    {
-      title: "FoddieFood",
-      techStack: ["React.js", "Tailwind CSS", "HTML",""],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "fofood",
-        href: "",
-      },
-    },
-  ],
-  work: []
+  ]
 } as const;
