@@ -110,6 +110,28 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Form_Building",
+      techStack: ["React", "Next.js", "Javascript", "Context API", "HTML", "Tailwind CSS"],
+      description:
+      "Next.js app for a form builder",
+      logo: ParabolLogo,
+      link: {
+        label: "render.com",
+        href: "https://form-build-umber.vercel.app/",
+      },
+    },
+    {
+      title: "Chat-Application",
+      techStack: ["React", "InstantDB", "IndexedDB", "HTML", "Tailwind CSS", "JavaScript"],
+      description:
+      "A React.js based application that mimics WhatsApp Web with real-time messaging and offline capabilities.",
+      logo: ParabolLogo,
+      link: {
+        label: "render.com",
+        href: "https://chat-application-orpin-eight.vercel.app/",
+      },
+    },
+    {
       title: "NoteMaker",
       techStack: ["Python", "Django", "Javascript", "Html","CSS"],
       description:
@@ -142,15 +164,15 @@ export const RESUME_DATA = {
         href: "https://gist.github.com/Jaishree2310/bb0f29adfeb7758e8a04724165df2f5e",
       },
     },
-     {
-      title: "UX/UI Portfolio",
-      techStack: ["React", "Javascript", "Html"," Tailwind CSS"],
+    {
+      title: "Simon Game",
+      techStack: ["Javascript", "Html", "CSS"],
       description:
-      "My Product Design Portfolio",
+      "Simple Simon Game created using Bootstrap for the UI and Vanilla JavaScript for the functionality. It replicates the classic memory game where players must repeat an increasing sequence of colors.",
       logo: ParabolLogo,
       link: {
         label: "render.com",
-        href: "https://jaishreesingh.com",
+        href: "https://simon-game-blue-alpha.vercel.app/",
       },
     },
   ]
